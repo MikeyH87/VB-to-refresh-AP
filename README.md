@@ -8,7 +8,7 @@ Application.Wait (Now + #12:00:10 AM#)
 Workbooks.Open Filename:= _
         "G:\Hotline\MIS\Data\Webi Data Dumps\Performance Report by Teams.xlsm"
         
-Workbooks(“Performance Report by Teams.xlsm”).RefreshAll
+ActiveWorkbook.RefreshAll
 
 Activeworkbook.close True 
 End Sub
